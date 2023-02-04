@@ -1,0 +1,39 @@
+.btn {
+    padding: 16px 24px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-outline-green {
+    border: 2px solid #0DB760;
+    background-color: #FFF;
+    color: #000000;
+}
+
+.btn-green {
+    border: none;
+    background-color: #0DB760;
+    color: #FFF;
+    transition: all 0.3s;
+}
+
+.btn-green:hover {
+    background-color: #059249;
+    color: #FFF;
+}
+
+.btn-text {
+    background-color: #FFF;
+    border: none;
+    color: #000000;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}

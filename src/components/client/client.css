@@ -1,0 +1,40 @@
+.container-client {
+    width: 80%;
+    margin: auto;
+}
+
+.client-section {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.grid-item-client {
+    position: relative;
+}
+
+.grid-item-client:nth-child(1):after,
+.grid-item-client:nth-child(2):after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -40%;
+    width: 1px;
+    height: 100%;
+    background-color: #0DB760;
+}
+
+.grid-item-client h1 {
+    font-size: 48px;
+    color: #0DB760;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-item-client h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
